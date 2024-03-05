@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #394a51;
+    justify-content: center;
+}
+
+main{
+    width: 960px;
+    background-color: #fbf2d5;
+    margin: auto;
+    padding-bottom: 100px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ************************************************************************************************** */
+
+.logo{
+    padding: 0 0 0 90px;
+    color: #7fa99b;
+}
+
+.lac, .foret{
+    padding:  60px 0 60px 90px;
+}
+
+h1{
+    color: #fdcb87;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 20px 0 20px 90px;
+}
+
+p{
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    padding: 10px 100px 10px 170px;
+    padding-right: 170px;
+}
+
+a{
+    color: #7fa99b;
+    font-weight: bold;
+
+}
+
+h3{
+    color: #7fa99b;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px 0 10px 90px;
+}
+
+em{
+    color: #7fa99b;
+    display: block;
+    border-left: solid 1px #7fa99b;
+    margin-left: 90px;
+    padding: 0 170px 0 10px;
+
+}
+
+ul{
+    padding-left: 190px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    list-style-type: square;
+    padding: 10px 190px 20px 190px;
+}
+
