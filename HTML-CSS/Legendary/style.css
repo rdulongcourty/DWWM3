@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #efe784;
+}
+
+header{
+    position: relative;
+    height: 400px;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenue{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #efe784;
+    font-size: 32px;
+    margin: 0;
+}
+

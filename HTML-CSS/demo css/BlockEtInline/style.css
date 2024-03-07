@@ -1,0 +1,12 @@
+p{
+    background-color: burlywood;
+    border: 1px solid black;
+    display: inline-block;
+    width:  300px;
+
+}
+
+a{
+    background-color: chocolate;
+    display: block;
+}
