@@ -1,12 +1,22 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
 }
 
 body{
     background-color: #efe784;
+}
+
+main{ 
+    margin: 0 170px;
+}
+
+.contenu{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 10%;
 }
 
 header{
@@ -15,13 +25,6 @@ header{
     background-image: url(img/header.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.contenue{
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding-top: 10%;
 }
 
 .logo{
@@ -34,5 +37,59 @@ h1{
     color: #efe784;
     font-size: 32px;
     margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
+
+/* --------------------------------------------------------------- */
+
+.intro{
+    background-color: #3e3838;
+    color: #efe784;
+    text-align: center;
+    padding: 40px;
+}
+
+.titre1{
+    border-top: 1px solid #efe784;
+    border-bottom: 1px solid #efe784;
+    display: inline;
+    letter-spacing: 10px;
+}
+
+.Pintro{
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+/* --------------------------------------------------------------- */
+
+.avengers{
+    background-color: white;
+    padding: 40px;
+}
+
+.Titre2{
+    color: #6cbcb3;
+    padding: 0 80px 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.Pavengers{
+    color: #282828;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.photo{
+    background-image: url(img/avengers.jpg);
+    background-size: cover;
+    width: 620px;
+    height: 250px;
+    background-position: 0% 50%;
+
+}
+
+
 
