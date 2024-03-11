@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: paleturquoise;
+    width: 70%;
+    height: 1050px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: orangered;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}

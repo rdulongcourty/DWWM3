@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: paleturquoise;
+    width: 900px;
+    height: 1500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+.left{
+    background-color: orange;
+    height: 200px;
+    width: 280px;
+    border: 2px solid black;
+}
+
+.right{
+    background-color: gray;
+    height: 200px;
+    width: 280px;
+    border: 2px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.p1{
+    background-color: yellow;
+    margin: 50px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.groupe1{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+.t1{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.t2{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.t3{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.t4{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.groupe2{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+.gauche{
+    background-color: orange;
+    height: 200px;
+    width: 280px;
+    border: 2px solid black;
+}
+
+.droit{
+    background-color: orange;
+    height: 200px;
+    width: 280px;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: green;
+    height: 100px;
+    margin: 50px;
+    border: 2px solid black;
+}
