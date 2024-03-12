@@ -1,22 +1,68 @@
-body{
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-main{
-    background-color: paleturquoise;
-    width: 70%;
-    height: 1050px;
-    margin: 50px;
+body{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    background-color: white;
+    border: 4px solid rgb(22, 122, 67);
+    margin: 5%;
+    width: 30vw;
+    height: 45vh;
 }
 
 header{
-    background-color: orangered;
+    background-color: white;
+    border: 4px solid orangered;
+    margin: 2%;
+    height: 10vh;
 }
 
 .container{
     display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+.g1{
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
+}
+
+.g2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.p2{
+    background-color: white;
+    border: 4px solid rgb(81, 81, 211);
+    justify-content: space-evenly;
+    margin: 2%;
+    width: 5vw;
+    height: 3vh;
+}
+
+.t1{
+    background-color: white;
+    border: 4px solid rgb(22, 22, 73);
+    justify-content: space-evenly;
+    margin: 2%;
+    width: 15vw;
+    height: 5vh;
+}
+
+footer{
+    background-color: white;
+    border: 4px solid green;
+    margin: 2%;
+    height: 10vh;
 }
