@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 20%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.lorem1 {
+  background-color: greenyellow;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  height: 150px;
+}
+.lorem2 {
+  background-color: darkorchid;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.lorem3 {
+  background-color: gray;
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+.lorem4 {
+  background-color: aqua;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.lorem5 {
+  background-color: brown;
+  grid-column: 1/3;
+}
+.lorem6 {
+  background-color: blue;
+  grid-column: 3/4;
+  grid-row: 1/5;
+}
