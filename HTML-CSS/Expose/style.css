@@ -12,27 +12,28 @@ body {
   font-family: "Roboto", sans-serif;
 }
 body nav {
-  background-color: #ECEFD8;
+  background-color: #ecefd8;
   height: 60px;
   display: flex;
   justify-content: center;
   width: 1440px;
+  padding-top: 1.5%;
 }
 body nav ul {
   display: flex;
-  flex-wrap: wrap;
   align-content: center;
   gap: 116px;
   list-style-type: none;
 }
 body nav ul li {
-  color: #393939;
-  font-weight: 300;
+  font-weight: 300px;
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.2%;
+  text-transform: uppercase;
 }
-body nav a {
+body nav ul li a {
   text-decoration: none;
+  color: #393939;
 }
 body header {
   background-image: url(imgs/header-bg\ 1.png);
@@ -42,9 +43,9 @@ body header {
   flex-direction: column;
   justify-content: center;
 }
-body header .imglogoheader {
-  width: 460px;
+body header .logoheader {
   height: 130px;
+  width: 460px;
   align-self: center;
 }
 body header h1 {
@@ -59,12 +60,129 @@ body header h1 {
   text-indent: -2px;
   margin-top: 2%;
 }
-body .sectionintro {
+body .intro {
+  background-color: #ecefd8;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  background-color: #ECEFD8;
+  text-align: center;
+  gap: 4rem;
+  width: 1440px;
+  height: 440px;
+}
+body .intro h2 {
+  text-transform: uppercase;
+  padding-top: 3%;
+}
+body .intro p {
+  font-size: 20px;
+  line-height: 35.28px;
+  letter-spacing: 0.5%;
+  text-align: center;
+  padding: 0 25%;
+}
+body .intro button {
+  background-color: #849561;
+  width: 211px;
+  height: 65px;
+  color: #eed690;
+  font-size: 16px;
+  line-height: 28.22px;
+  letter-spacing: 0.5%;
+  box-shadow: 0px 4px 4px rgba(19, 18, 18, 0.25);
+  border: none;
+}
+body .tableau {
+  background-color: #393939;
+  display: flex;
+  flex-direction: column;
   width: 1440px;
   text-align: center;
+}
+body .tableau h2 {
+  text-transform: uppercase;
+  padding-top: 26px;
+  color: #849561;
+  font-size: 22px;
+  line-height: 26.11px;
+}
+body .tableau .container {
+  display: flex;
+  gap: 8%;
+  padding: 5%;
+}
+body .tableau .container div {
+  background-color: #849561;
+  width: 252px;
+  height: 382px;
+  color: white;
+  position: relative;
+}
+body .tableau .container div h3 {
+  padding: 5% 20%;
+}
+body .tableau .container div p {
+  padding: 5% 10%;
+}
+body .tableau .container div button {
+  background-color: #393939;
+  color: white;
+  border: 1px solid #849561;
+  height: 42px;
+  width: 142px;
+  position: absolute;
+  left: 50%;
+  bottom: -1.5em;
+  transform: translate(-50%);
+}
+body .nympheas {
+  background-image: url(imgs/modern-industrial\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5%;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 30px;
+  text-align: center;
+}
+body .nympheas img {
+  border: 1px solid white;
+  padding: 1%;
+}
+body .nympheas h2 {
+  font-size: 22px;
+}
+body .nympheas p {
+  padding: 0 15%;
+}
+body .fondateur {
+  background-color: #393939;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  padding: 3%;
+  align-items: center;
+}
+body .fondateur h2 {
+  color: #849561;
+  text-transform: uppercase;
+}
+body .fondateur .container {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+body .fondateur .container .men {
+  background-color: #849561;
+}
+body .fondateur .container .men img {
+  border-radius: 100%;
+}
+body .fondateur .container .men .logo {
+  display: flex;
+  background-color: #393939;
+  gap: 2%;
 }

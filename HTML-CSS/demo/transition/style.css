@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    /* transition-duration: 2s; */
+    transition-property: background 2sec ease-in-out 1s;
+    /* transition-timing-function: ease-out; */
+}
+
+.box:hover{
+    background-color: green;
+    height: 800px;
+}
