@@ -66,8 +66,9 @@ body .intro {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 4rem;
+  gap: 10px;
   height: 440px;
+  justify-content: center;
 }
 body .intro h2 {
   text-transform: uppercase;
@@ -82,7 +83,7 @@ body .intro p {
 }
 body .intro button {
   background-color: #849561;
-  width: 211px;
+  width: 25%;
   height: 65px;
   color: #eed690;
   font-size: 16px;
@@ -107,8 +108,10 @@ body .tableau h2 {
 body .tableau .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 8%;
-  padding: 5%;
+  gap: 5%;
+  padding: 6%;
+  align-items: center;
+  justify-content: center;
 }
 body .tableau .container div {
   background-color: #849561;
@@ -191,10 +194,9 @@ body .fondateur .photo {
 }
 body .fondateur .men {
   display: block;
-  width: 462px;
-  height: 404px;
+  height: 350px;
   background-color: #849561;
-  padding: 0 1%;
+  padding: 0 1%%;
 }
 body .fondateur .men h3 {
   font-weight: 700;
@@ -250,8 +252,7 @@ body .fondateur .logo .logo3 {
   border: 48px 49px;
 }
 body .fondateur .woman {
-  width: 462px;
-  height: 404px;
+  height: 350px;
   background-color: #849561;
   color: white;
   position: relative;
@@ -275,4 +276,26 @@ body .fondateur .woman p {
   margin-top: 3%;
   margin-bottom: 3%;
   padding: 0 4%;
+}
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+    height: auto;
+  }
+  .carre1 {
+    margin-bottom: 5%;
+  }
+  .carre2 {
+    margin-bottom: 5%;
+  }
+  .nympheas {
+    background-image: none;
+    background-color: #1D1B1BFC;
+    color: white;
+    padding-top: 100px;
+  }
+  .men {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
 }
