@@ -5,3 +5,12 @@
 video{
     object-fit: cover;
 }
+
+.parallax{
+    height: 200px; /* ou la hauteur souhaitée */
+    background-image: url('./img/parallax.jpg'); /* Insérer le chemin de votre image de fond */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
