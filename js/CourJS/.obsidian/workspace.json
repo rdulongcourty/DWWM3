@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "6938d83a804088eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcef165ad789424c",
+        "type": "tabs",
+        "dimension": 83.22147651006712,
+        "children": [
+          {
+            "id": "daddf546f734484b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "coursjs-main/Exercices/Exercices - Conditions & boucles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "dc574d6271401ff9",
+        "type": "tabs",
+        "dimension": 16.778523489932887,
+        "children": [
+          {
+            "id": "46b95036a197b891",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "coursjs-main/Cours/1- Introduction à JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3cf9ba9e2cef905c",
+    "type": "split",
+    "children": [
+      {
+        "id": "205d3400111e7742",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b34d7c748cb0aee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "139ae43ce5074253",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "49765480a1f44142",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e7b31926ebf8ff37",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4e7a020d2a18415",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45a79faffd9ec211",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "coursjs-main/Exercices/Exercices - Conditions & boucles.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "729e0ede8c2f4128",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "coursjs-main/Exercices/Exercices - Conditions & boucles.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46e8684bfcb9b523",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b9f096d4b2aa345f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "coursjs-main/Exercices/Exercices - Conditions & boucles.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "daddf546f734484b",
+  "lastOpenFiles": [
+    "coursjs-main/Cours/2- Syntaxe de base.md",
+    "coursjs-main/Cours/3- Manipulation du DOM.md",
+    "coursjs-main/Cours/1- Introduction à JavaScript.md",
+    "coursjs-main/Exercices/Exercices - Manipulation du DOM.md",
+    "coursjs-main/Exercices/Exercices - Fonctions.md",
+    "coursjs-main/Aide mémoire - Manipulation du DOM.md",
+    "coursjs-main/Exercices/Exercices - Conditions & boucles.md",
+    "coursjs-main/Aide mémoire - Général.md",
+    "coursjs-main/Exercices/Exercices - Algo de base.md",
+    "coursjs-main/Cours/7- AJAX (Asynchronous JavaScript and XML).md",
+    "coursjs-main/Cours/6- Concepts Avancés.md",
+    "coursjs-main/Cours/5- Fonctions avancées.md",
+    "coursjs-main/Cours/4- Gestion des tableaux et Objets.md",
+    "coursjs-main/Cours/8- Frameworks JavaScript.md",
+    "coursjs-main/Sommaire.md",
+    "Welcome.md",
+    "coursjs-main/Cours/9- Bonnes Pratiques et Débogage.md",
+    "coursjs-main/Exercices",
+    "coursjs-main/Cours",
+    "coursjs-main/Aide mémoire - Tableaux.md",
+    "coursjs-main",
+    "coursjs-main.zip"
+  ]
+}
