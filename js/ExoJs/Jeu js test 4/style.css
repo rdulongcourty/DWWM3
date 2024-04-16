@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/BackGround.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sectionAccueil{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionSelectCharacter{
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+}
+
+
+.sectionBattle{
+    height: 100vh;
+    display: none;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.btnStartGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    overflow: hidden;
+    height: 3rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#070707, #000000), linear-gradient(137.48deg, #f0d86b 10%, #e9c074 45%, #7c6140 67%, #7b420c 87%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin: 0.5rem;
+}
+
+#container-stars {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+}
+
+strong {
+    z-index: 2;
+    font-family: 'Avalors Personal Use';
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    text-shadow: 0 0 4px white;
+}
+
+#glow {
+    position: absolute;
+    display: flex;
+    width: 12rem;
+}
+
+.circle {
+    width: 100%;
+    height: 30px;
+    filter: blur(2rem);
+    animation: pulse_3011 4s infinite;
+    z-index: -1;
+}
+
+.circle:nth-of-type(1) {
+    background: rgba(254, 83, 186, 0.636);
+}
+
+.circle:nth-of-type(2) {
+    background: rgba(142, 81, 234, 0.704);
+}
+
+.btnStartGame:hover #container-stars {
+    z-index: 1;
+    background-color: #212121d9;
+}
+
+.btnStartGame:hover {
+    transform: scale(1.1)
+}
+
+.btnStartGame:active {
+    border: double 4px #FE53BB;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: none;
+}
+
+.btnStartGame:active .circle {
+    background: #FE53BB;
+}
+
+#stars {
+    position: relative;
+    background: transparent;
+    width: 200rem;
+    height: 200rem;
+}
+
+#stars::after {
+    content: "";
+    position: absolute;
+    top: -10rem;
+    left: -100rem;
+    width: 100%;
+    height: 100%;
+    animation: animStarRotate 90s linear infinite;
+}
+
+#stars::after {
+    background-image: radial-gradient(#ffffff 1px, transparent 1%);
+    background-size: 50px 50px;
+}
+
+#stars::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 170%;
+    height: 500%;
+    animation: animStar 60s linear infinite;
+}
+
+#stars::before {
+    background-image: radial-gradient(#ffffff 1px, transparent 1%);
+    background-size: 50px 50px;
+    opacity: 0.5;
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-135rem);
+    }
+}
+
+@keyframes animStarRotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+@keyframes gradient_301 {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes pulse_3011 {
+    0% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.89);
+    }
+
+    100% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.btnTuto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    overflow: hidden;
+    height: 3rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#000000, #000000), linear-gradient(137.48deg, #f0d86b 10%, #e9c074 45%, #7c6140 67%, #7b420c 87%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin: 0.5rem;
+}
+
+#container-stars {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+}
+
+strong {
+    z-index: 2;
+    font-family: 'Avalors Personal Use';
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    text-shadow: 0 0 4px white;
+}
+
+#glow {
+    position: absolute;
+    display: flex;
+    width: 12rem;
+}
+
+.circle {
+    width: 100%;
+    height: 30px;
+    filter: blur(2rem);
+    animation: pulse_3011 4s infinite;
+    z-index: -1;
+}
+
+.circle:nth-of-type(1) {
+    background: rgba(254, 83, 186, 0.636);
+}
+
+.circle:nth-of-type(2) {
+    background: rgba(142, 81, 234, 0.704);
+}
+
+.btnTuto:hover #container-stars {
+    z-index: 1;
+    background-color: #212121;
+}
+
+.btnTuto:hover {
+    transform: scale(1.1)
+}
+
+.btnTuto:active {
+    border: double 4px #FE53BB;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: none;
+}
+
+.btnTuto:active .circle {
+    background: #FE53BB;
+}
+
+#stars {
+    position: relative;
+    background: transparent;
+    width: 200rem;
+    height: 200rem;
+}
+
+#stars::after {
+    content: "";
+    position: absolute;
+    top: -10rem;
+    left: -100rem;
+    width: 100%;
+    height: 100%;
+    animation: animStarRotate 90s linear infinite;
+}
+
+#stars::after {
+    background-image: radial-gradient(#ffffff 1px, transparent 1%);
+    background-size: 50px 50px;
+}
+
+#stars::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 170%;
+    height: 500%;
+    animation: animStar 60s linear infinite;
+}
+
+#stars::before {
+    background-image: radial-gradient(#ffffff 1px, transparent 1%);
+    background-size: 50px 50px;
+    opacity: 0.5;
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-135rem);
+    }
+}
+
+@keyframes animStarRotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+@keyframes gradient_301 {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes pulse_3011 {
+    0% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.accueilH1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px #cea88b; 
+    color: #4c3c2d; 
+}
+
+.h1SectionSelectCharacter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #cea88b;
+    color: #dbcbbf;
+}
+
+.selectPlayer1Player2{
+    display: flex;
+}
+
+.selectCharacterPlayer1{
+    background: linear-gradient( 220deg,#fcecd4, #81716D);
+    box-shadow: 2px 2px 40px #084049;
+    border: 1px solid aqua;
+    border-radius: 10%;
+    margin: 2%;
+    height: 90%;
+    padding-top: 2%;
+}
+.selectCharacterPlayer2{
+    background: linear-gradient( 150deg,#fcecd4,#665656);
+    box-shadow: 2px 2px 40px #084049;
+    border: 1px solid aqua;
+    border-radius: 10%;
+    margin: 2%;
+    height: 90%;
+    padding-top: 2%;
+}
+
+.imgSelectPlayer1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: white solid 3px;
+    margin-left: 15%;
+    
+}
+
+.imgSelectPlayer2{
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: white solid 3px;
+    margin-left: 15%;
+}
+
+.box-input {
+    position: relative;
+    margin-left: 33%;
+    padding-top: 5%;
+}
+
+.border {
+    background-image: linear-gradient(to right bottom, #4b3b29, #836950, #a0875b, #aa996a, #4c380a);
+    box-shadow: -25px -10px 30px -5px rgba(159, 109, 9, 0.5),
+        25px -10px 30px -5px rgba(210, 132, 6, 0.5),
+        25px 10px 30px -5px rgba(255, 174, 0, 0.5),
+        -25px 10px 30px -5px rgba(193, 108, 11, 0.5);
+    padding: 4px;
+    max-width: 180px;
+}
+
+.inputPlayer1, .inputPlayer2{
+    background-color: #212121;
+    max-width: 150px;
+    height: 20px;
+    padding: 0 19px 0 10px;
+    font-size: 1.1em;
+    position: relative;
+    border: none;
+    color: white;
+    outline: 0;
+    overflow: hidden;
+}
+
+.box-input::after,
+.box-input::before {
+    content: "";
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    z-index: -1;
+}
+
+.box-input::after {
+    bottom: 0;
+    right: 0;
+}
+
+.box-input::before {
+    top: 0;
+    left: 0;
+}
+
+.inputPlayer1::placeholder {
+    transition: all 0.5s ease-in, transform 0.2s ease-in 0.6s;
+}
+
+.inputPlayer2::placeholder {
+    transition: all 0.5s ease-in, transform 0.2s ease-in 0.6s;
+}
+
+.inputPlayer1:focus::placeholder {
+    padding-left: 165px;
+    transform: translateY(-50px);
+}
+
+.inputPlayer2:focus::placeholder {
+    padding-left: 165px;
+    transform: translateY(-50px);
+}
+
+.btnStartBattle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    overflow: hidden;
+    height: 3rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#000000, #000000), linear-gradient(137.48deg, #f0d86b 10%, #e9c074 45%, #7c6140 67%, #7b420c 87%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin: 0.5rem;
+    margin-left: 42%;
+    margin-top: 3%;
+}
+
+.btnStartBattle:hover #container-stars {
+    z-index: 1;
+    background-color: #212121;
+}
+
+.btnStartBattle:hover {
+    transform: scale(1.1)
+}
+
+.btnStartBattle:active {
+    border: double 4px #FE53BB;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: none;
+}
+
+.btnStartBattle:active .circle {
+    background: #FE53BB;
+}
+
+.h1SectionBattle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #cea88b;
+    color: #dbcbbf;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.player1Name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+    color: #d6761cc2;
+}
+
+.player2Name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 4px #998080;
+    color: #5a4027;
+}
+
+.namePersonnage1{
+
+}
+
+.namePersonnage2{
+    
+}
+
+
+.battlePlayer1Player2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.battlePlayer1{
+    width: 50%;
+    /* background-color: #4b3b29; */
+}
+
+.battlePlayer2{
+    width: 50%;
+}
+
+.imgPerso1{
+    height: 350px;
+    width: 350px;
+    border-radius: 90%;
+    border: white solid 3px;
+    margin-top: 5%;
+}
+
+.imgPerso2{
+    height: 350px;
+    width: 350px;
+    border-radius: 90%;
+    border: white solid 3px;
+    margin-top: 5%;
+}

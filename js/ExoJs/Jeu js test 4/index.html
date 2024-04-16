@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="sectionAccueil">
+        <h1 class="accueilH1">Bienvenue sur le jeu</h1>
+        <div class="btnContainer">
+            <button class="btnStartGame" id="btnStart" type="button">
+                <strong>Démarrer</strong>
+                <div id="container-stars">
+                    <div id="stars"></div>
+                </div>
+
+                <div id="glow">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </button>
+
+            <button class="btnTuto" id="btnTuto" type="button">
+                <strong>Tutoriel</strong>
+                <div id="container-stars">
+                    <div id="stars"></div>
+                </div>
+
+                <div id="glow">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section class="sectionSelectCharacter">
+        <h1 class="h1SectionSelectCharacter">Selection des personnages</h1>
+        <div class="selectPlayer1Player2">
+
+            <div class="selectCharacterPlayer1">
+                <img src="img/archer.jpg" class="imgSelectPlayer1 player1Archer" alt="">
+                <img src="img/epeiste.jpg" class="imgSelectPlayer1 player1Guerrier" alt="">
+                <img src="img/mage.png" class="imgSelectPlayer1 player1Mage" alt="">
+                <img src="img/Guérisseur.jpg" class="imgSelectPlayer1 player1Pretre" alt="">
+                <div class="box-input">
+                    <div class="border">
+                        <input type="text" class="inputPlayer1" placeholder="Pseudo">
+                    </div>
+                </div>
+            </div>
+            <div class="selectCharacterPlayer2">
+                <img src="img/archer.jpg" class="imgSelectPlayer2 player2Archer" alt="">
+                <img src="img/epeiste.jpg" class="imgSelectPlayer2 player2Guerrier" alt="">
+                <img src="img/mage.png" class="imgSelectPlayer2 player2Mage" alt="">
+                <img src="img/Guérisseur.jpg" class="imgSelectPlayer2 player2Pretre" alt="">
+                <div class="box-input">
+                    <div class="border">
+                        <input type="text" class="inputPlayer2" placeholder="Pseudo">
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        <button class="btnStartBattle" id="btnTuto" type="button">
+            <strong>Start Game</strong>
+            <div id="container-stars">
+                <div id="stars"></div>
+            </div>
+
+            <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </button>
+    </section>
+
+    <section class="sectionBattle">
+        <h1 class="h1SectionBattle">Le Combat</h1>
+        <div class="battlePlayer1Player2">
+            <div class="battlePlayer1">
+                <h2 class="player1Name">Nom du joueur 1</h2>
+                <p class="namePersonnage1">nom du personnage 1</p>
+                <img src="" class="imgPerso1" alt="">
+                <button class="btnPlayer1Attack">Attaque</button>
+                <!-- <button class="player1Health">Soins</button> -->
+                <p class="player1Health"></p>
+            </div>
+            <div class="battlePlayer2">
+                <h2 class="player2Name">Nom du joueur 2</h2>
+                <p class="namePersonnage2">nom du personnage 2</p>
+                <img src="" class="imgPerso2" alt="">
+                <button class="btnPlayer2Attack">Attaque</button>
+                <!-- <button class="player2Health">Soins</button> -->
+                <p class="player2Health"></p>
+            </div>
+        </div>
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

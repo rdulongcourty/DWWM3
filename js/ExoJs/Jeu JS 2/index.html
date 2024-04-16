@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jeu tour par tour</title>
+</head>
+
+<body>
+    <section class="accueil">
+        <img src="imgs/fotor-ai-20240408133948-removebg-preview.png" alt="Logo du jeu">
+        <h1>Bienvenue amusez vous bien !</h1>
+        <div class="btnContainer">
+        <button class="btn" id="btnStart" type="button">
+            <strong>START</strong>
+            <div id="container-stars">
+                <div id="stars"></div>
+            </div>
+
+            <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+
+            <button class="btn" id="btnTuto" type="button">
+                <strong>Tutoriel</strong>
+                <div id="container-stars">
+                    <div id="stars"></div>
+                </div>
+    
+                <div id="glow">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>    
+        </button>
+    </section>
+
+    <section id="selection" class="hidden">
+        <h2>Sélection de votre Personnage</h2>
+        <div class="player" id="player1">
+            <h2>Joueur 1</h2>
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" required="">
+                <label for="name" class="form__label">Name</label>
+            </div>
+        </div>
+        
+        <div class="player" id="player2">
+            <h2>Joeur 2</h2>
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" required="">
+                <label for="name" class="form__label">Name</label>
+            </div>
+        </div>
+    </section>
+
+    <div id="tutoModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tutoriel : Phase d'entrée du jeu</h2>
+            <p>1. Saisie du pseudo
+                Lorsque vous cliquez sur le bouton "Start", une fenêtre apparaîtra vous demandant d'entrer votre pseudo. C'est le nom sous lequel vous serez connu dans le jeu. Tapez votre pseudo dans le champ prévu à cet effet, puis appuyez sur le bouton "Valider" pour continuer. <br>
+                <br>
+                2. Choix de la classe
+                Après avoir entré votre pseudo, vous serez invité à choisir la classe de votre personnage. Vous avez le choix entre plusieurs classes, chacune avec ses propres compétences et caractéristiques. Sélectionnez la classe qui correspond le mieux à votre style de jeu, puis appuyez sur le bouton "Valider". <br>
+                <br>
+                3. Mise en état "Ready"
+                Une fois que vous avez choisi votre classe, vous serez prêt à commencer l'aventure ! Appuyez sur le bouton "Ready" pour indiquer que vous êtes prêt à partir à l'aventure et à affronter les défis qui vous attendent</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
