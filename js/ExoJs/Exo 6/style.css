@@ -1,0 +1,20 @@
+.rectangle {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    display: none;
+}
+
+.redRectangle {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+}
+
+.blueRectangle {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+}
